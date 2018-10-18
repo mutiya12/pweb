@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: lightslategray
+}
+.bawah{
+    background-color: #000;
+    width:100%;
+    height: 50px;
+    top: 40px;
+    color :white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row [class^="col"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header{
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 30px;
+    padding-right: 200px;
+    
+}
+
+.header > a{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    padding-top: 20px;
+}
+.header1{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+}
+
+ul.menu {
+    float: right;
+}
+
+ul.menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0 15px;
+    color: #000;
+}
+
+ul.menu li a.active {
+    color: blue;
+}
+
+.gambar {
+    height: 400px;
+    background-image: url(koperasi.jpg);
+    background-size: cover;
+    background-position: 0 -190px;
+}
+
+.image {
+    height: 500px;
+    width: 100%;
+    background-image: url(koperasi.jpg);
+    background-size: cover;
+    background-position: 0 -150px;
+    position: relative;
+}
+.image.product {
+    height: 80px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.tulproduk{
+    text-align: center
+}
+.tulisan {
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    color: white;
+    font-size: 25px;
+
+}
+.menu h5 {
+    display: inline-block;
+    text-align: right;
+}
+.lantai {
+text-decoration: underline;
+padding-top: 30px;
+font-size: 20px;
+}
