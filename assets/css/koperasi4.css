@@ -2,34 +2,26 @@
     margin: 0;
     padding: 0;
 }
-
 body{
+    margin: 0;
+    padding: 0;
     background-color: white;
     color: lightslategray
 }
-.bawah{
-    background-color: #000;
-    width:100%;
-    height: 50px;
-    top: 40px;
-    color :white;
-    text-align: center;
-    font-size: 15px;
-    padding: 20px;
-}
+
+
 .container {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-
 * {
     box-sizing: border-box;
 }
-
-.row [class^="col"] {
+[class*="col-"] {
     float: left;
     padding: 15px;
+    
 }
 
 .col-1 {width: 8.33%;}
@@ -50,21 +42,21 @@ body{
     clear: both;
     display: table;
 }
-.kop{
-    color: lightslategray;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 30px;
-}
 .header{
     background-color: lightsteelblue;
     width: 100%;
     height: 30px;
-    padding-right: 30px;
+    padding-right: 200px;
+    
 }
+.header > button{
+    float: right;
+}
+
 
 .header > a{
     float: right;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -100,69 +92,48 @@ ul.menu li a.active {
     color: blue;
 }
 
-.gambar {
-    height: 400px;
-    background-image: url(koperasi.jpg);
-    background-size: cover;
-    background-position: 0 -190px;
-}
-
 .image {
-    height: 600px;
     width: 100%;
-    background-image: url(koperasi.jpg);
+    height: 300px;
+    background-image: url(bi.jpg);
     background-size: cover;
-    background-position: 0 -150px;
-    position: relative;
+    background-position: 0 -300px;
 }
-.image.product {
-    height: 80px;
-    width: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.tulproduk{
-    text-align: center
-}
-.tulisan {
-    position: absolute;
-    top: 180px;
-    left: 150px;
-    color:grey;
-    font-size: 25px;
-
-}
-.menu h5 {
-    display: inline-block;
-    text-align: right;
-}
-.lantai {
-text-decoration: underline;
-padding-top: 30px;
-font-size: 20px;
-}
-.form-comment {
-    padding: 30px 0;
-
+.header2 {
+    background-color:lightsteelblue;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'BlinkMacSystemFont' ;
+    padding-top: 20px;
+    color: black;
 }
 
-.send {
-    padding: 5px 7px;
-    background-color: blue;
-    color: #fff;
-    border: none;
+.content .content1 {
+    margin-top: 20px;
+    text-decoration-line: underline;
+    font-size: 20px;
+    padding: 10px;
+    color: salmon;
+    margin-bottom: 5px;  
 }
 
-.header a.btn {
-    margin: 5px;
-    padding: 2px;
-    background-color: blue;
-    color: #fff;
-    text-decoration: none;
-    float: right;
-    margin-left: 20px;
+.content .content2{
+    padding: 10px;
+    font-size: 17px;
+    color:black;
+    margin-top: -15px;
 }
+
+.content .content3{
+    padding: 40px;
+    font-size: 17px;
+    color:black;
+    margin-top: -15px;
+}
+
 .header4{
     background-color:rgb(56, 55, 55);
     width: 100%;
@@ -173,6 +144,48 @@ font-size: 20px;
     font-family: 'cursive';
     padding-top: 20px;
     color:white;
+}
+.header>img , .header>h1{
+    display: inline-block;
+}
+.gmbr{
+    width: 200px;
+    height:200px;
+}
+.caption {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.tulisan {
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    color: white;
+    font-size: 13px;
+
+}
+.icon.product {
+    height: 35px;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: white ;
+}
+.tulproduk{
+    text-align: center
+}
+.badge{
+    display: inline-block;
+    padding: 10px;
+}
+.kop{
+    color: lightslategray;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
 }
 .footer{
     background-color: #000;
