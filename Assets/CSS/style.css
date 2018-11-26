@@ -1,0 +1,404 @@
+
+/* Halaman home */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script|PT+Sans+Narrow|Sedgwick+Ave|Cormorant+Upright');
+
+.awal-button{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    background-color:white;
+    width: 100%;
+    /* height: 65px; */
+}
+.kop{
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.image {
+    width: 100%;
+    height: 500px;
+    background-image: url(a.png);
+    position: relative;
+}
+.header > a{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
+ul.menu {
+    float: right;
+}
+
+ul.menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.menu>li>a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0 15px;
+    color: #000;
+}
+ul.menu>.dropdown>li>a>i{
+    font-size: 30px;
+
+}
+.kotak>i{
+    font-size: 30px;
+}
+
+ul.menu li a.active {
+    color: blue;
+}
+.tulisan {
+    font-size: 20px;
+    color: white;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+}
+.tulis {
+    font-size: 20px;
+    color: white;
+    font-family:'Dancing Script', cursive;
+}
+.tulis>h2{
+    margin: 0 auto;
+    width: 90%;
+}
+.caption {
+    font-size: 22px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.coretan{
+    font-size: 20px;
+    color: rgb(92, 81, 81);
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.footer{
+    background-color:rgb(63, 63, 63);
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+.header4{
+    background-color:rgb(180, 179, 179);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'cursive';
+    padding-top: 20px;
+    color:black;
+}
+.menu2{
+    position: absolute;
+
+}
+
+/* .image-blur {
+    filter: blur(3px);
+} */
+.caption1 {
+    font-size: 50px;
+    color: rgb(105, 22, 22);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.caption2 {
+    font-size: 30px;
+    color:white;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.bg-history{
+    background-image: url('../Icon/f.jpg');
+    background-size: cover;
+    width: 100%;
+    padding: 10% 0;
+    background-repeat: no-repeat;
+}
+.bg-awal{
+    background-image: url('../Icon/b.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.bg-regis{
+    background-image: url('../Icon/c.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+}
+.logawal{
+text-align: center;
+padding-top: 100px;
+font-size: 20px;
+
+}
+.login{
+    margin-top: 10px;
+}
+.img-responsive{
+    width: 100%;
+    max-width: 50px;
+}
+.badge{
+    margin-top: 10px;
+}
+.badge>img{
+    display: inline-block;
+}
+.badge>p{
+    margin-top: 15px;
+}
+.bg-home{
+    background-image: url('../Icon/a.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10% 0;
+}
+.mainmenubtn {
+    color: rgb(0, 0, 0);
+}
+ 
+.mainmenubtn:hover {
+    
+    color: rgb(179, 169, 238);
+    }
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    position: absolute;
+    right: 0;
+    display: none;
+    background-color: rgb(168, 164, 164);
+    min-width: 100px;
+    z-index: 1;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.bg-das{
+    background-color: rgb(129, 131, 238);
+    height: 100vh;
+}
+
+.bg-das1{
+background-color: rgb(56, 56, 128);
+height: 20vh;
+
+}
+.bg-das1>a{
+    display: inline-block;
+    background: white;
+    padding: 2px 10px;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+}
+.bg-profil{
+    background-color: rgb(129, 131, 238);
+    height: 70vh;
+    text-align: center;
+    padding-top: 40%;
+}
+.kotakprof{
+    border: 2px solid;
+    margin-top: 10px;
+    padding: 5%;
+    font-size: 20px;
+    text-align: left;
+}
+.kotak{
+    border: 2px solid;
+    margin-top: 10px;
+    padding: 5%;
+    font-size: 20px;
+    text-align: left;
+}
+.kotak>.row>div>a{
+    text-decoration: none;
+    display: inline-block;
+    background: skyblue;
+    color: black;
+    border: 2px solid;
+    border-radius: 10% 10%;
+    font-size: 20px;
+}
+.member{
+    border: 2px solid;
+    border-radius: 50% 50%;
+    background: rgb(199, 192, 192);
+    width: 80%;
+    margin-left: 10px;
+    text-align: center;
+}
+.kotak2{
+    border: 2px solid;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.kotak2>a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    border: #ccc 1px solid;
+    font-size: 20px;
+  }
+
+  table th {
+    border-left:1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background: #ededed;
+  }
+   
+  table tr {
+    text-align: left;
+    padding-left: 20px;
+    text-align: center;
+  }
+   
+  table td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    border-left: 0;
+  }
+   
+  table td {
+    padding: 15px 20px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+    
+  }
+   
+  table tr:last-child td {
+    border-bottom: 0;
+  }
+   
+  table tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+.bg-das1 .active{
+    background-color: aqua;
+}
+@media  (min-width: 100px) and (max-width: 900px) {
+	table.responsive {
+		width: 100%;
+	}
+	thead {
+		display: none;
+	}
+	td {
+		display: block;
+		text-align: right;
+		border-right: 1px solid #e1edff;
+	}
+	td::before {
+		float: left;
+		text-transform: uppercase;
+		font-weight: bold;
+		content: attr(data-header);
+	}
+}
+.kotakregis{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+    width: 65%;
+    /* height: 80vh; */
+    background-color: rgba(255, 255, 255, 0.342);
+    padding: 40px;
+    
+}
+.kotakregis1{
+    
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+    width: 65%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.342);
+    
+}
+.oke{
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.menu-container {
+    margin-left: auto;
+    margin: auto;
+    padding: 20px 80px;
+}
+
+.header-awal, .header-awal>.kop {
+    text-align: center;
+}
+
+.logo-awal {
+    height: 40px;
+}
+
+.menu-awal {
+    list-style: none;
+    font-weight: bold;
+    padding-inline-start: 0;
+    text-align: center;
+}
+
+.menu-awal li {
+    display: inline-block;
+}
+
+.menu-awal a {
+    text-decoration: none;
+    color: #000;
+}
